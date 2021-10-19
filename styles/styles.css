@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+  margin: 0;
+  
+}
+
+.container
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-family: 'Saira', sans-serif;
+}
+
+.container > .column-1
+{
+  width: 30%;
+  background: #2a5977;
+}
+
+.container > .column-2
+{
+  width: 70%;
+  background: #fff;
+}
+
+.container > .column-2 > .column-container > .title > span
+{
+  color: #2a5977;
+  font-weight: 700;
+  font-size: 45px;    
+}
+
+.container > .column-2 > .column-container > .contact > .contact-item
+{
+  margin-bottom: 10px;
+  color: #3b3b3b;
+  font-size: 15px;
+}
+
+
+.container > .column-2 > .column-container > .separator
+{
+  margin-top: 30px;
+}
+
+  
+.container > .column-2 > .column-container
+{
+  padding: 50px;
+}
+
+.container > .column-1 > .column-container
+{
+  padding: 20px 50px 20px 50px;
+}
+
+
+.container > .column-2 > .column-container > .education > .education-title-container,
+.container > .column-2 > .column-container > .work > .work-title-container
+{
+  color: #2a5977;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0px 10px 0px;
+}
+
+.container > .column-2 > .column-container > .education > .education-content-container > p,
+.container > .column-2 > .column-container > .work > .work-content-container > p
+{
+  margin: 0;
+  font-size: 15px;
+}
+
+.container > .column-2 > .column-container > .education > .education-content-container,
+.container > .column-2 > .column-container > .work > .work-content-container
+{
+  color: #3b3b3b;
+}
+
+.container > .column-1 > .column-container > .photo > .photo-container
+{
+  text-align: center;
+}
+
+.container > .column-1 > .column-container > .photo > .photo-container > img
+{
+  border-radius: 1000px;
+  text-align: center;
+}
+
+.container > .column-1 > .column-container > .professional > .professional-title-container,
+.container > .column-1 > .column-container > .ability > .ability-title-container
+{
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;   
+  margin: 10px 0px 10px 0px; 
+}
+
+.container > .column-1 > .column-container > .professional > .professional-content-container > .details,
+.container > .column-1 > .column-container > .ability > .ability-content-container > ul > li
+{
+  color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 300px) and (max-width:767px) {
+
+  .container 
+	{
+    display: block;
+  }
+
+	.container > .column-1,	.container > .column-2
+	{
+		width: 100%;
+	}
+
+}
+
+
